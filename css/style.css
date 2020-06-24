@@ -41,10 +41,16 @@ body {
 	position: relative;
 }
 
+.poster__img img {
+	width: 507px;
+	height: 480px;
+}
+
 .poster__img::before {
 	content: " ";
 	position: absolute;
 	background-image: url(../images/icons/heart.svg);
+	background-size: cover;
 	width: 71.23px;
 	height: 18.46px;
 	top: 265px;
@@ -61,6 +67,11 @@ body {
 	max-width: 500px;
 }
 
+.logo {
+	width: 241px;
+	height: 60px;
+}
+
 .info__logo {
 	position: relative;
 	display: inline-block;
@@ -73,10 +84,10 @@ body {
 	background-image: url(../images/icons/left.svg);
 	width: 14px;
 	height: 18px;
-	left: calc(229px / 2 - 14px);
-	top: 16px;
+	left: -14px;
+	top: 30%;
 	opacity: 0;
-	transition: all .5s;
+	transition: all .2s;
 }
 
 .info__logo::after {
@@ -85,10 +96,10 @@ body {
 	background-image: url(../images/icons/right.svg);
 	width: 33px;
 	height: 32px;
-	right: calc(229px / 2 - 33px);
-	top: 10px;
+	right: -33px;
+	top: 22%;
 	opacity: 0;
-	transition: all .5s;
+	transition: all .2s;
 }
 
 .info__logo:hover.info__logo::before {
