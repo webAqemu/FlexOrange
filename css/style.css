@@ -44,6 +44,8 @@ body {
 .poster__img img {
 	width: 507px;
 	height: 480px;
+	object-fit: cover;
+	object-position: center;
 }
 
 .poster__img::before {

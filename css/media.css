@@ -64,6 +64,7 @@
 	.poster {
 		width: 100%;
 		margin-bottom: 50px;
+		margin-top: 60px;
 	}
 
 	.info__social {
@@ -84,6 +85,15 @@
 }
 
 @media(max-width: 440px) {
+
+	.main {
+		margin-bottom: 50px;
+		height: 100%;
+	}
+
+	.poster {
+		margin-top: 50px;
+	}
 
 	.poster__img img {
 		width: 249px;
@@ -121,13 +131,25 @@
 		display: inline-block;
 	}
 
+	.info__icon--tel {
+		top: -3px;
+	}
+
+	.info__icon--inst {
+		top: -3px;
+	}
+
 	.info__icon--mail {
 		top: -3px;
 	}
 
+	.info__form {
+		padding-bottom: 70px;
+	}
+
 	.info__btn {
 		top: auto;
-		bottom: -70px;
+		bottom: 0px;
 		right: calc(50% - (149.56px / 2));
 	}
 
