@@ -52,6 +52,8 @@
 	.main {
 		justify-content: center;
 		flex-direction: column-reverse;
+		margin-bottom: 124px;
+		height: 100%;
 	}
 
 	.info {
@@ -88,7 +90,6 @@
 
 	.main {
 		margin-bottom: 50px;
-		height: 100%;
 	}
 
 	.poster {
